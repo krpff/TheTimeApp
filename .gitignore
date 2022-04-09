@@ -1,0 +1,5 @@
+/venv/
+/dist/
+/build/
+!/tranformated_ui.py
+/main.exe
