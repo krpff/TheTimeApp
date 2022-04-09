@@ -17,7 +17,7 @@ class MainWindow(QMainWindow):
         uic.loadUi('data/designed.ui', self)
         self.setWindowIcon(QIcon('data/icon.png'))
         # DB connecting
-        self.con = sqlite3.connect("TheTimeAppDB.db")
+        self.con = sqlite3.connect("data/TheTimeAppDB.db")
         self.cur = self.con.cursor()
 
         # Alarm and Timer ringtone

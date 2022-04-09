@@ -3,3 +3,4 @@
 /build/
 !/tranformated_ui.py
 /main.exe
+.idea
